@@ -6,7 +6,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "*",
-            "Resource": "*",
+            "Resource": "arn:aws:s3:::lab1np11111/*",
             "Condition": {
                 "NotIpAddress": {
                     "aws:SourceIp": [
